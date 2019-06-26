@@ -57,7 +57,7 @@
     <Compile Include="AuthorCreateItem.cs" />
     <Compile Include="AuthorDetailItem.cs" />
     <Compile Include="AuthorListItem.cs" />
-    <Compile Include="WisdomCreateItem.cs" />
+    <Compile Include="WisdomBasicItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WisdomDetailItem.cs" />
     <Compile Include="WisdomListItem.cs" />

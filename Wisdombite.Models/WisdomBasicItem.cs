@@ -9,7 +9,7 @@ using WisdomBite.Data;
 
 namespace Wisdombite.Models
 {
-    public class WisdomCreateItem
+    public class WisdomBasicItem
     {
         [Required]
         [MinLength(15, ErrorMessage = "The content must be at least 15 characters")]

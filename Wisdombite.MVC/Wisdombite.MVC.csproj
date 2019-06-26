@@ -170,6 +170,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\WisdomController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -234,6 +235,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Wisdom\Index.cshtml" />
+    <Content Include="Views\Wisdom\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -255,6 +258,10 @@
     <ProjectReference Include="..\WisdomBite.Data\WisdomBite.Data.csproj">
       <Project>{06B50C27-A99B-4547-81F7-0807A3921897}</Project>
       <Name>WisdomBite.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wisdombite.Models\Wisdombite.Models.csproj">
+      <Project>{2dca2823-f1f7-43c0-b43c-e1db597c2021}</Project>
+      <Name>Wisdombite.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
