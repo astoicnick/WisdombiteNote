@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomBite.Data", "WisdomBi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wisdombite.Models", "Wisdombite.Models\Wisdombite.Models.csproj", "{2DCA2823-F1F7-43C0-B43C-E1DB597C2021}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote.Services", "ElevenNote.Services\ElevenNote.Services.csproj", "{626B332B-66DF-40EE-984C-5F2431B7A9E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wisdombite.Services", "ElevenNote.Services\Wisdombite.Services.csproj", "{626B332B-66DF-40EE-984C-5F2431B7A9E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

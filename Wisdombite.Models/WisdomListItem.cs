@@ -16,6 +16,6 @@ namespace Wisdombite.Models
         [Required]
         public Genre WisdomGenre { get; set; }
         [Required]
-        public AuthorListItem Author { get; set; }
+        public string AuthorName { get; set; }
     }
 }
